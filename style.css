@@ -1,0 +1,98 @@
+/* :root(
+    Very dark blue (main background): hsl(233, 47%, 7%);
+- Dark desaturated blue (card background): hsl(244, 38%, 16%);
+- Soft violet (accent): hsl(277, 64%, 61%);
+
+- White (main heading, stats): hsl(0, 0%, 100%);
+- Slightly transparent white (main paragraph): hsla(0, 0%, 100%, 0.75);
+- Slightly transparent white (stat headings): hsla(0, 0%, 100%, 0.6);
+
+) */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter", sans-serif;
+
+    
+}
+    
+
+.main-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto auto;
+    padding-top: 50px;
+}
+section{
+
+    background:  hsl(233, 47%, 7%);
+    width: 1000px;
+    height: 600px;
+    margin: 25px auto;
+    
+    
+}
+.card-section{
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+    min-width: 30%;
+    min-height: 375px;
+    background: hsl(244, 38%, 16%);
+    margin-top: 50px;
+    padding: 30px 50px 40px 30px;
+    
+    
+
+}
+.stats{
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    font-family: "Lexend Deca", sans-serif;
+    justify-content: space-evenly;
+    margin: 10px;
+    
+}
+.stats{
+    display: flex;
+}
+h2{
+    font-size: 32px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    margin: 30px;
+}
+p{
+   color: hsla(0, 0%, 100%, 0.75);
+   font-size: 15px;
+   font-family: "Inter", sans-serif;
+   font-weight: 400;
+   margin: 20px;
+   padding-left: 7px;
+   line-height: 25px;
+   
+}
+.stats-heading{
+    color:  hsla(0, 0%, 100%, 0.6);
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 10px;
+}
+
+
+/* for mobile phones */
+/* @media screen and (500px){ */
+    /* div.main-sec{ */
+        /* display: block; */
+
+    /* } */
+/* } */
+.attribution { font-size: 11px; text-align: center;
+color: aliceblue; }
+.attribution a { color: hsl(228, 45%, 44%); }

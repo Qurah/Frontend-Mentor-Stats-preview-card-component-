@@ -84,6 +84,37 @@ p{
     letter-spacing: 2px;
     font-size: 10px;
 }
+@media (min-width:1440px) {
+    .main-section {
+        height: 25rem;
+        width: 60rem;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .img {
+        background: linear-gradient(hsla(277, 100%, 25%, 0.75 ) 100%, rgba(255, 255, 255, 0)), url('images/image-header-mobile.jpg');
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+    }
+
+    .stats {
+        display: inline-block;
+    }
+    h3 {
+        margin: 2rem;
+    }
+    .card-section {
+        text-align: left;
+    }
+    h2 {
+        padding: 2rem 3rem;
+    }
+    .stats-heading {
+        font-size: 1rem;
+    }
+}
 
        
     

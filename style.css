@@ -26,22 +26,22 @@ body{
     flex-direction: row;
     justify-content: center;
     margin: auto auto;
-    padding-top: 50px;
+    padding: 40px;
 }
 section{
 
     background:  hsl(233, 47%, 7%);
-    width: 1000px;
-    height: 600px;
     margin: 25px auto;
+    width: 1200px;
+    height: 600px
     
     
 }
 .card-section{
     border-bottom-left-radius: 7px;
     border-top-left-radius: 7px;
-    min-width: 30%;
-    min-height: 375px;
+    min-width: 32%;
+    min-height: 50%;
     background: hsl(244, 38%, 16%);
     margin-top: 50px;
     padding: 30px 50px 40px 30px;
@@ -87,12 +87,21 @@ p{
 
 
 /* for mobile phones */
-/* @media screen and (500px){ */
-    /* div.main-sec{ */
-        /* display: block; */
+/* @media only screen and (min-width:375px){ */
+        /* .main-section{ */
+            /* display: flex; */
+            /* flex-direction: column-reverse; */
+            /* width: 100%; */
+        /* } */
+        .card-section{
+            width: 100%;
+            height: auto;
+            display: block;
 
-    /* } */
-/* } */
+
+        }
+  }
+    
 .attribution { font-size: 11px; text-align: center;
 color: aliceblue; }
 .attribution a { color: hsl(228, 45%, 44%); }
